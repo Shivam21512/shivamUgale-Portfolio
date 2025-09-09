@@ -40,17 +40,6 @@ const AboutSection = () => {
                I’m a final-year Computer Engineering student passionate about building modern, responsive web applications using the MERN stack. My core skills include React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and JavaScript. I focus on writing clean, maintainable code and enjoy working across both frontend and backend. I’m actively seeking full-stack or frontend developer roles where I can learn, grow, and contribute to real-world solutions.
               </p>
               
-              {/* <p>
-                I'm passionate about clean code, user experience, and staying up-to-date with the latest 
-                technology trends. When I'm not coding, you'll find me contributing to open-source projects, 
-                mentoring junior developers, or exploring new frameworks and tools.
-              </p>
-              
-              <p>
-                Currently, I'm focused on building exceptional user experiences with React, Node.js, 
-                and cloud technologies. I believe in writing code that not only works but is maintainable, 
-                scalable, and brings value to users and businesses alike.
-              </p> */}
             </motion.div>
             
             <motion.div
@@ -63,10 +52,6 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-bold text-primary">30+</h3>
                 <p className="text-muted-foreground">Projects Completed</p>
               </div>
-              {/* <div>
-                <h3 className="text-2xl font-bold text-primary">4+</h3>
-                <p className="text-muted-foreground">Years Experience</p>
-              </div> */}
             </motion.div>
           </div>
           
