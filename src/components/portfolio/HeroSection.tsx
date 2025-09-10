@@ -43,7 +43,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <motion.p
-            className="text-lg md:text-xl text-primary mb-4"
+            className="text-lg md:text-xl text-primary mb-4 mt-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}

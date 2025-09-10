@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import profilePhoto from "@/assets/profile01.jpg";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -37,9 +36,8 @@ const AboutSection = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
             >
               <p>
-               I’m a final-year Computer Engineering student passionate about building modern, responsive web applications using the MERN stack. My core skills include React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and JavaScript. I focus on writing clean, maintainable code and enjoy working across both frontend and backend. I’m actively seeking full-stack or frontend developer roles where I can learn, grow, and contribute to real-world solutions.
+                I’m a final-year Computer Engineering student passionate about building modern, responsive web applications using the MERN stack. My core skills include React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and JavaScript. I focus on writing clean, maintainable code and enjoy working across both frontend and backend. I’m actively seeking full-stack or frontend developer roles where I can learn, grow, and contribute to real-world solutions.
               </p>
-              
             </motion.div>
             
             <motion.div
@@ -64,7 +62,7 @@ const AboutSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-card hover:shadow-hover transition-all duration-300">
               <img
-                src={profilePhoto}
+                src="/profilePhoto.jpg"
                 alt="Shivam Ugale - Full Stack Developer"
                 className="w-full h-auto object-cover"
               />
